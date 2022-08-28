@@ -496,72 +496,6 @@ body::-webkit-scrollbar-thumb {
 
 
 /*-----------------------------------*\
-  #PRICEING
-\*-----------------------------------*/
-
-.pricing { background-color: var(--cultured); }
-
-.pricing .section-text { margin-block-end: 60px; }
-
-.pricing-list {
-  display: grid;
-  gap: 30px;
-}
-
-.pricing-card {
-  --color: var(--black);
-  --icon-color: var(--theme-color);
-
-  background-color: var(--white);
-  border-radius: var(--radius-10);
-  box-shadow: var(--shadow);
-  line-height: 1.2;
-  padding: 30px;
-  transition: var(--transition);
-}
-
-.pricing-card ion-icon {
-  color: var(--icon-color);
-  flex-shrink: 0;
-  font-size: 25px;
-  transition: var(--transition);
-}
-
-.pricing-card .card-title {
-  color: var(--color);
-  font: unset;
-  font-family: var(--ff-poppins);
-  margin-block: 14px 10px;
-  transition: var(--transition);
-}
-
-.pricing-card .card-price {
-  color: var(--color);
-  font-family: var(--ff-poppins);
-  transition: var(--transition);
-}
-
-.pricing-card:is(:hover, :focus-within) {
-  background-color: var(--theme-color);
-  --color: var(--white);
-  --icon-color: var(--white);
-}
-
-
-
-
-
-/*-----------------------------------*\
-  #NEWS
-\*-----------------------------------*/
-
-.news-card .card-text { margin-block-end: 5px; }
-
-
-
-
-
-/*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
 
@@ -644,12 +578,6 @@ textarea.input-field {
   padding-block: 30px;
 }
 
-.copyright { margin-block-end: 10px; }
-
-.copyright-link { display: inline-block; }
-
-.copyright-link:is(:hover, :focus) { text-decoration: underline; }
-
 .social-list {
   display: flex;
   justify-content: center;
@@ -691,28 +619,6 @@ textarea.input-field {
   }
 
   .exp-list .list-item:not(:last-child) { margin-block-end: 0; }
-
-
-
-  /**
-   * PRICING
-   */
-
-  .pricing-card {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .pricing-card .card-title {
-    margin-block: 0;
-    margin-inline-end: auto;
-  }
-
-}
-
-
 
 
 
@@ -780,11 +686,10 @@ textarea.input-field {
 
   .footer .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
-  .copyright { margin-block-end: 0; }
 
 }
 
@@ -974,25 +879,6 @@ textarea.input-field {
   .timeline-item { padding-block: 30px; }
 
 
-
-  /**
-   * PRICING
-   */
-
-  .pricing .container {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: flex-start;
-    gap: 200px;
-  }
-
-  .pricing-content {
-    position: sticky;
-    top: 120px;
-  }
-
-  .pricing .section-text { margin-block-end: 0; }
 
 
 
