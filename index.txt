@@ -9,7 +9,7 @@ Plantamura
 Home
 Portfolio
 Skills
-Timeline
+Resume
 Contact
 
 aria-label = toggle menu
