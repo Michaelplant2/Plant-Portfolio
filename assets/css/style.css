@@ -850,24 +850,24 @@ textarea.input-field {
   .skills .container {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 150px;
   }
 
-  .skills-banner {
+  /* .skills-banner {
     display: block;
     position: absolute;
     top: 0;
     right: 50px;
     width: 410px;
     height: 620px;
-    background-image: url('../images/project-2.png');
+    background-image: url('../images/self-photo.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 105%;
     background-attachment: fixed;
     overflow: hidden;
-  }
+  } */
 
 
 
