@@ -45,31 +45,20 @@ aria-label = scroll down
 
 Portfolio
 
-Selected Works
+Recent Projects
 
 alt = Magic Art
 
 <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 
-Magic Art
-Vimeo
+The Bean Machine
+Replit
 
-Bona Green
-Youtube
+Ultimate Ski Resort Form
+Replit
 
-Leo Dandora
-Soundcloud
-
-Folio Grasia
-Detail
-
-Viva Mercury
-Image
-
-Santa Onera
-Image
-
-
+Sweet Berries Cooking School
+Replit
 
 
 
@@ -94,7 +83,7 @@ WordPress
 
 #---------- HEADER ----------#
 
-Timeline
+Resume
 
 Working Period
 

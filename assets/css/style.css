@@ -475,7 +475,7 @@ body::-webkit-scrollbar-thumb {
 
 
 /*-----------------------------------*\
-  #TIMELINE
+  #RESUME
 \*-----------------------------------*/
 
 .timeline-item {
@@ -661,7 +661,7 @@ textarea.input-field {
 
 
   /**
-   * TIMELINE
+   * Resume
    */
 
   .timeline-item {
@@ -672,10 +672,9 @@ textarea.input-field {
 
 
   /**
-   * PRICING, CONTACT
+   * CONTACT
    */
 
-  .pricing-card,
   .contact-link { font-size: var(--fs-18); }
 
 
@@ -862,7 +861,7 @@ textarea.input-field {
     right: 50px;
     width: 410px;
     height: 620px;
-    background-image: url('../images/portfolio-2.jpg');
+    background-image: url('../images/project-2.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 105%;
@@ -873,7 +872,7 @@ textarea.input-field {
 
 
   /**
-   * TIMELINE
+   * Resume
    */
 
   .timeline-item { padding-block: 30px; }
