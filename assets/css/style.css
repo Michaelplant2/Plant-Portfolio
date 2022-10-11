@@ -246,7 +246,7 @@ body::-webkit-scrollbar-thumb {
   right: 10px;
   bottom: 10px;
   left: 10px;
-  background-color: var(--white);
+  background-color: var(--theme-color);
   border-radius: var(--radius-8);
   padding: 20px 25px;
   display: grid;
@@ -266,7 +266,10 @@ body::-webkit-scrollbar-thumb {
   transform: rotate(-45deg);
 }
 
-.card-text { font-family: var(--ff-poppins); }
+.card-text { 
+   font-family: var(--ff-poppins);
+   color: var(--black);
+}
 
 .has-scrollbar {
   display: flex;
