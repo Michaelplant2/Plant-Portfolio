@@ -291,7 +291,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb { 
-   background-color: var(--black_70);
+   background-color: var(--theme-color);
    border-radius: 5px; 
 }
 
