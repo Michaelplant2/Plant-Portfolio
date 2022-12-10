@@ -433,6 +433,14 @@ body::-webkit-scrollbar-thumb {
 
 
 
+/*-----------------------------------*\
+  #CERTIFICATE
+\*-----------------------------------*/
+
+
+.certificate {
+  background-color: var(--cultured);
+}
 
 
 /*-----------------------------------*\
