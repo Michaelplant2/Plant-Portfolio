@@ -218,6 +218,15 @@ body::-webkit-scrollbar-thumb {
 
 :is(.portfolio, .news) .section-title { margin-block-end: 60px; }
 
+.container-p {
+  padding-inline: 30px;
+  padding-top: 5px;
+}
+
+.git-link {
+  display: inline;
+}
+
 .card {
   position: relative;
   overflow: hidden;
@@ -724,7 +733,7 @@ textarea.input-field {
 
   .container { padding-inline: 50px; }
 
-
+  .container-p { padding-inline: 50px; }
 
   /**
    * HEADER
@@ -908,6 +917,12 @@ textarea.input-field {
     max-width: 1170px;
     width: 100%;
     margin-inline: auto;
+  }
+
+  .container-p {     
+    max-width: 1170px;
+    width: 100%;
+    margin-inline: auto; 
   }
 
   .has-scrollbar { gap: 40px; }
