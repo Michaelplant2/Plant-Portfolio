@@ -372,7 +372,6 @@ body::-webkit-scrollbar-thumb {
 
 
 
-
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
@@ -486,7 +485,7 @@ body::-webkit-scrollbar-thumb {
 
 
 /*-----------------------------------*\
-  #RESUME
+  #EMPLOYMENT
 \*-----------------------------------*/
 
 .timeline-item {
@@ -501,7 +500,6 @@ body::-webkit-scrollbar-thumb {
 .timeline-item .item-period { font: unset; }
 
 .timeline-item .item-title { color: var(--black); }
-
 
 
 
@@ -672,7 +670,7 @@ textarea.input-field {
 
 
   /**
-   * Resume
+   * Employment
    */
 
   .timeline-item {
@@ -865,25 +863,10 @@ textarea.input-field {
     gap: 150px;
   }
 
-  /* .skills-banner {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 50px;
-    width: 410px;
-    height: 620px;
-    background-image: url('../images/self-photo.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 105%;
-    background-attachment: fixed;
-    overflow: hidden;
-  } */
-
 
 
   /**
-   * Resume
+   * Employment
    */
 
   .timeline-item { padding-block: 30px; }
