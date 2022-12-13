@@ -441,6 +441,11 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--cultured);
 }
 
+.mimo-img {
+  max-width: 100%;
+  border-radius: 5%;
+}
+
 
 /*-----------------------------------*\
   #SKILLS
