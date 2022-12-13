@@ -443,6 +443,7 @@ body::-webkit-scrollbar-thumb {
 
 .mimo-img {
   max-width: 100%;
+  border: 2px solid var(--black_20);
   border-radius: 5%;
 }
 
