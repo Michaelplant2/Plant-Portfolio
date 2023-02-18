@@ -249,7 +249,7 @@ body::-webkit-scrollbar-thumb {
   transition: var(--transition);
 }
 
-.card:is(:hover, :focus-within, :active) .card-content { opacity: 1; }
+.card:is(:hover, :focus-within, :active) .card-content { opacity: 0.8; }
 
 .card-content > ion-icon {
   position: absolute;
