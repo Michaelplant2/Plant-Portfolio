@@ -486,6 +486,21 @@ body::-webkit-scrollbar-thumb {
   height: 8px;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--theme-color);
+  padding: 20px;
+  width: 150px;
+}
 
 
 
