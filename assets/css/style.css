@@ -502,7 +502,9 @@ body::-webkit-scrollbar-thumb {
   width: 150px;
 }
 
-
+.flex-item a {
+  text-align: center;
+}
 
 
 /*-----------------------------------*\
